@@ -1,0 +1,255 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-color: lightgray;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#container{
+    /*width:70%;*/
+    width: 1100px;
+    margin: 0px auto;
+    border: 1px solid black;
+}
+
+header{
+    background:#008db1;
+    height: 100px;
+    width: 100%;
+    text-align: center;
+    line-height: 100px;
+}
+
+.Titulopagina{
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 50px;
+}
+
+.titulo2{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 30px;
+}
+
+#parrafo{
+    text-align: justify;
+    font-size: 22px;
+    letter-spacing: 1px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.navegacion1{
+    width: 1100px;
+    margin: 0px auto;
+    background: #0c59cf;
+    
+}
+
+.navegacion1 ul{
+    list-style: none;
+
+}
+
+.menu >  li{
+    position: relative;
+    display: inline-block;
+}
+
+.menu >li >a{
+    display: block;
+    padding: 15px 20px;
+    color:white;
+    font-family: 'Open Sans', sans-serif;
+    text-decoration: none;
+}
+
+.menu li a:hover{
+    color: #CE7D35;
+    transition: all .3S;
+}
+
+/* sbmenu temas */
+
+.submenutemas{
+    position: absolute;
+    background:#333333;
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity 1.5s;
+}
+
+.submenutemas li a{
+    display: block;
+    padding: 15px;
+    color: white;
+    font-family:sans-serif ;
+    text-decoration: none;
+    text-align: center;
+}
+
+.menu li:hover .submenutemas{
+    visibility: visible;
+    opacity: 1;
+}
+
+/* submenu recursos*/
+
+.submenurecursos{
+    position: absolute;
+    background:#333333;
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity 1.5s;
+}
+
+.submenurecursos li a{
+    display: block;
+    padding: 45px;
+    color: white;
+    font-family:sans-serif ;
+    text-decoration: none;
+}
+
+.menu li:hover .submenurecursos{
+    visibility: visible;
+    opacity: 1;
+}
+
+/* submenu aprendizaje */
+
+.submenuaprendizaje{
+    position: absolute;
+    background:#333333;
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity 1.5s;
+}
+
+.submenuaprendizaje li a{
+    display: block;
+    padding: 15px;
+    color: white;
+    font-family:sans-serif ;
+    text-decoration: none;
+}
+
+.menu li:hover .submenuaprendizaje{
+    visibility: visible;
+    opacity: 1;
+}
+
+/*footer*/
+
+footer{
+    background:#0c59cf;
+    color: white;
+    height: 50px;
+    line-height: 50px;
+}
+
+.navegacionfooter ul{
+    list-style: none;
+}
+
+.menufooter>  li{
+    position: relative;
+    display: inline-block;
+    font-size: 45px;
+    margin-left: 12px;
+}
+
+.correo a{
+    color: azure;
+}
+
+.skype a{
+    color: azure;
+}
+
+#iconoyahoo{
+    margin-left: 440px ;
+    margin-right: 50px;
+}
+
+#fechaactualizacion{
+    font-size: 20px;
+    color: azure;
+    margin-left:340px;
+}
+
+/*Contenido*/
+
+#content{
+    float: left;
+    width:100%;
+    background: white;
+
+}
+
+/*imagenes 1*/
+
+.contentimagenes1{
+    display: flex;
+}
+
+.contentimagenes1 img:first-child{
+    margin-right: 30px;
+    margin-left: 150px;
+}
+
+.imagen1{
+    height: 250px;
+    margin-bottom: 20px;
+}
+
+/*imagenes 2*/
+.imagen2{
+    height: 250px;
+    margin-left: 80px;
+}
+
+.imagen3{
+    height: 250px;
+    width: 250px;
+    margin-bottom: 40px;
+}
+
+.imagen4{
+    height: 250px;
+    width: 355px;
+    margin-left: 80px;
+}
+/*imagenes 2*/
+.contentimagenes2{
+    display: flex;
+}
+
+.contentimagenes2 img:first-child{
+    margin-right: 30px;
+    margin-left: 150px;
+}
+/*para cambiar la psoición del menu*/
+.inicio{
+    text-align: left;
+}
+.temas{
+    margin-left: 100px;
+}
+.recursos{
+    margin-left: 100px;
+}
+.aprendizaje{
+    margin-left: 100px;
+}
+.acercade{
+    margin-left: 100px;
+}
+/**/
+
+.clearfix{
+    clear: both;
+}
