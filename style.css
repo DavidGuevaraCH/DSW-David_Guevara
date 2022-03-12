@@ -7,7 +7,7 @@
 body{
     background: url(img/desk.jpg) no-repeat; /*imagen de fondo de la pagina web*/
     background-size: cover;/*para traer la imagen a la pantalla*/
-    font-family: 'century gothyc', sans-serif;/*para vambier el estilo de letra en todo el body*/
+    font-family: 'century gothyc', sans-serif;/*para cambiar el estilo de letra en todo el body*/
 }
 
 .box{
