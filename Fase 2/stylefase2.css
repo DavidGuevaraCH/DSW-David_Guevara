@@ -181,13 +181,21 @@ footer{
     margin-left:340px;
 }
 
-/*Contenido*/
+/*Contenido- cambio widht de 100 a 80% para cuadrar el aside*/
 
 #content{
     float: left;
-    width:100%;
+    width:80%;
     background: white;
 
+}
+
+/*creao el aside*/
+aside{
+    float: left;
+    width: 20%;
+    min-height: 1120px;
+    background: #008db1;
 }
 
 /*imagenes 1*/
