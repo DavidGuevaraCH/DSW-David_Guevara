@@ -76,14 +76,14 @@ nav{
 
 aside{
     float: left;
-    width: 20%;
+    width: 31%;
     min-height: 100px;
     background: #008db1;
 }
 
 #content{
     float: left;
-    width:80%;
+    width:69%;
     background: white;
 }
 
@@ -91,9 +91,17 @@ h2{
     font-size: 30px;
     padding-top: 20px;
     padding-bottom: 20px;
+    margin:10px ;
 }
 
 p{
     text-align: justify;
     font-size: 22px;
+    margin: 10px;
+}
+
+.fanpage{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
 }
