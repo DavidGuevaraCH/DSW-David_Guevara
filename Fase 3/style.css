@@ -78,6 +78,7 @@ aside{
     float: left;
     width: 31%;
     min-height: 100px;
+    height: 1144px;
     background: #008db1;
 }
 
@@ -98,10 +99,55 @@ p{
     text-align: justify;
     font-size: 22px;
     margin: 10px;
+    padding-bottom: 9px;
 }
 
 .fanpage{
     padding-top: 20px;
     padding-bottom: 20px;
     text-align: center;
+}
+
+/*imagenes 1*/
+
+.contentimagenes1{
+    display: flex;
+}
+
+.contentimagenes1 img:first-child{
+    margin-right: 30px;
+    margin-left: 30px;
+}
+
+.imagen1{
+    height: 250px;
+    margin-bottom: 20px;
+}
+
+/*imagenes 2*/
+.imagen2{
+    height: 250px;
+    margin-left: 80px;
+    width:360px;
+}
+
+.imagen3{
+    height: 250px;
+    width: 250px;
+    margin-bottom: 40px;
+}
+
+.imagen4{
+    height: 250px;
+    width: 330px;
+    margin-left: 80px;
+}
+/*imagenes 2*/
+.contentimagenes2{
+    display: flex;
+}
+
+.contentimagenes2 img:first-child{
+    margin-right: 30px;
+    margin-left: 30px;
 }
