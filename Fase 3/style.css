@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    background: lightgray;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#container{
+    width: 1100px;
+    margin: 0px auto;
+    border: 1px solid;
+}
+
+header{
+    background: red;
+    height: 100px;
+    width: 100%;
+    margin: 0px;
+    text-align: center;
+    line-height: 100px;
+    color: white;
+}
+
+nav{
+    max-width: 1100px;
+    margin: auto;
+    background-color: greenyellow;
+    font-size: 20px;
+    margin-top: 1px;
+    text-align: center;
+    height: 70px;
+}
+
+.menu-horizontal{
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+.menu-horizontal >li>a{
+    display: block;
+    padding: 15px 100px;
+    color: aquamarine;
+    text-decoration: none;
+}
+
+.menu-horizontal >li:hover{
+    background-color: lime;
+    height: 70px;
+}
+
+.menu-vertical{
+    position: absolute;
+    display: none;
+    list-style: none;
+    width: 250px;
+    background-color: rgba(0, 0, 0, .3);
+}
+
+.menu-horizontal li:hover .menu-vertical{
+    display: block;
+}
+
+.menu-vertical li:hover{
+    background-color: aquamarine;
+}
+
+.clearfix{
+    clear: both;
+}
+
+aside{
+    float: left;
+    width: 20%;
+    min-height: 100px;
+    background: #008db1;
+}
+
+#content{
+    float: left;
+    width:80%;
+    background: white;
+}
+
+h2{
+    font-size: 30px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+p{
+    text-align: justify;
+    font-size: 22px;
+}
