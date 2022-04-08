@@ -16,24 +16,25 @@ body{
     border: 1px solid;
 }
 
+
 header{
-    background: red;
-    height: 100px;
+    background-image: linear-gradient(rgb(15, 208, 215), rgb(164, 228, 236));
+    height: 200px;
     width: 100%;
     margin: 0px;
     text-align: center;
     line-height: 100px;
-    color: white;
+    color: rgb(0, 0, 0);
 }
 
 nav{
     max-width: 1100px;
     margin: auto;
-    background-color: greenyellow;
+    background-image: linear-gradient(rgb(49, 138, 233), lightblue);
     font-size: 20px;
     margin-top: 1px;
     text-align: center;
-    height: 70px;
+    height: 45px;
 }
 
 .menu-horizontal{
@@ -44,14 +45,14 @@ nav{
 
 .menu-horizontal >li>a{
     display: block;
-    padding: 15px 100px;
+    padding: 5px 100px;
     color: aquamarine;
     text-decoration: none;
 }
 
 .menu-horizontal >li:hover{
-    background-color: lime;
-    height: 70px;
+    background: orange;
+    height: 45px;
 }
 
 .menu-vertical{
@@ -59,7 +60,8 @@ nav{
     display: none;
     list-style: none;
     width: 250px;
-    background-color: rgba(0, 0, 0, .3);
+    background-color: rgba(0, 0, 0, .9);
+    color: aliceblue;
 }
 
 .menu-horizontal li:hover .menu-vertical{
@@ -150,4 +152,49 @@ p{
 .contentimagenes2 img:first-child{
     margin-right: 30px;
     margin-left: 30px;
+}
+
+#navfooter{
+    max-width: 1100px;
+    margin: auto;
+    background-color: greenyellow;
+    font-size: 20px;
+    margin-top: 1px;
+    height: 55px;
+}
+
+.menu-footer{
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    font-size: 40px;
+}
+
+.menu-footer >li>a{
+    display: block;
+    padding: 5px 100px;
+    color: white;
+    text-decoration: none;
+}
+
+.correo :hover{
+    color: rgb(109, 0, 177);
+    transform: scale(1.3);
+}
+
+.skype :hover{
+    color: aqua;
+    transform: scale(1.3);
+}
+
+/*imagen del logo*/
+.uni{
+    float: left;
+    height: 100px;
+    padding-left: 300px
+}
+
+#titulo{
+    padding-top: 50px;
+    padding-right: 200px;
 }
