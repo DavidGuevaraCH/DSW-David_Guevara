@@ -1,0 +1,43 @@
+.imagenes{
+    height: 550px;
+    width: 830px;
+    padding-left: 200px;
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+.parrafos{
+    padding-left: 70px;
+    padding-right: 70px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+h2{
+    padding-left: 70px;
+    padding-right: 70px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+}
+
+h1{
+    padding-left: 70px;
+    padding-right: 70px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    font-size: 45px;
+    text-align: center;
+}
+
+.codigos{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: blue;
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+body{
+    background-color: antiquewhite;
+}

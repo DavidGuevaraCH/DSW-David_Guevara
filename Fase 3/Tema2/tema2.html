@@ -4,11 +4,141 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>Document</title>
 </head>
 <body>
+
     <h1>
-        etiquetas basicas html
+        Tema Dos - Etiquetas Basicas HTML
     </h1>
+
+    <p class="parrafos">
+        Anteriormente miramos la estructura de HTML y las etiquetas más básicas, ahora vamos a prender etiquetas para poner imágenes y enlaces  en la pagina web que deseemos crear.
+    </p>
+
+    <p class="parrafos">
+        Para empezar con esta explicación voy a utilizar el editor de código de Microsoft Visual Studio Code, lo pueden descargar en el siguiente enlace: <a href="https://code.visualstudio.com/" target="_blank" rel="noopener noreferrer">Microsoft Visual Studio Code</a>
+    </p>
+
+    <p class="parrafos">
+        Ahora creare una página web básica can las etiquetas básicas anteriormente estudiadas en el tema uno.
+    </p>
+
+    <img class="imagenes" src="img/1.png" alt="imagne 1">
+
+    <p class="parrafos">
+        Creare un título un párrafo y debajo del párrafo voy a poner una imagen. Para ello utilizare las etiquetas &lt;h1&gt;, &lt;p&gt; y para poner la imagen se utiliza la etiqueta &lt;img&gt; que en Microsoft Visual Studio Code, al digitar “img” y presionar intro automáticamente me crea la etiqueta completa para poner la ruta de la imagen y poder agregar el autor de la imagen y la etiqueta completa seria esta:
+    </p>
+
+    <p class="codigos">
+        &lt;img src=" "  alt=" "&gt;
+    </p>
+
+    <img class="imagenes" src="img/2.png" alt="imagen 2">
+
+    <p class="parrafos">
+        Ahora para agregar una imagen primero tenemos que crear una carpeta y la llamaremos (img) y en ella agregaremos las imágenes que deseemos poner en la pagina web. 
+    </p>
+
+    <img class="imagenes" src="img/3.png" alt="imagen 3">
+
+    <p class="parrafos">
+        Una vez creada la carpeta y agregada las imágenes. Dentro de las comillas src="" digitaremos “img” que es la ruta de nuestra carpeta de imágenes luego digitamos barra inclinada “/” para separar la carpeta y elegir la imagen que queremos poner en mi caso será imagen de (prueba.jpg), entonces la etiqueta queda esta manera:
+    </p>
+
+    <p class="codigos">
+        &lt;img src=”img/prueba.jpg”  alt=”Pixa Bay”&gt;
+    </p>
+
+    <img class="imagenes" src="img/4.png" alt="imagen 4">
+
+    <p class="parrafos">
+        Si seguimos todos los pasos anteriores el código HTML quedaría de la siguiente manera.
+    </p>
+
+    <img class="imagenes" src="img/5.png" alt="imagen 5">
+
+    <p class="parrafos">
+        Si todo esta bien procedemos abrir el archivo (.html) en el navegador de su preferencia y el resultado debería ser el mostrado en la imagen, claro que yo le he cambiado el alto y el ancho en el mismo código HTML, pero esto no se debe hacer ya que es una mala práctica de programación solamente lo hago para que se mire bien en el ejemplo.
+    </p>
+
+    <img class="imagenes" src="img/6.png" alt="imagen 6">
+
+    <h2>
+        Agregar Enlaces
+    </h2>
+
+    <p class="parrafos">
+        Para agregar enlaces externos en la página web que estamos creando es fácil, solamente debemos utilizar la etiqueta &lt;a&gt;&lt;/a&gt;, en Visual Studio Code, automáticamente crea la etiqueta completa con todos los parámetros como (href="") donde dentro de las comillas debemos poner el enlace que deseemos, en mi caso será el de YouTube, antes del cierre de la etiqueta &lt;/a&gt; debemos colocar el nombre que deseemos ya que al hacer clic en él nos llevará a la página del enlace.
+    </p>
+
+    <p class="parrafos">
+        La etiqueta debe quedar de la siguiente manera:
+    </p>
+
+    <p class="codigos">
+        &lt;a href="https://www.youtube.com/"&gt;este es un enlace&lt;/a&gt;
+    </p>
+
+    <p class="parrafos">
+        Este enlace lo pondré debajo de la imagen que agregamos anteriormente y el código debería quedar de la siguiente manera:  
+    </p>
+
+    <img class="imagenes" src="img/8.png" alt="imagen 8">
+
+    <p class="parrafos">
+        Si todo está bien procedemos a refrescar el navegador donde abrieron su archivo (.html) y el resultado debería ser el mostrado en la imagen.
+    </p>
+
+    <img class="imagenes" src="img/9.png" alt="imagen 9">
+
+    <p class="parrafos">
+        Para agregar enlaces locales en la página web que estamos creando y deseamos crear otra página (.html) y queremos colocarla como un enlace , solamente debemos utilizar la etiqueta &lt;a&gt;&lt;/a&gt;, en Visual Studio Code, automáticamente crea la etiqueta completa con todos los parámetros como (“href="") donde dentro de las comillas debemos poner el enlace que deseemos, en mi caso creare un archivo (.html) diferente al que ya tenemos y le voy a poner de nombre (otrapagina.html), le pondré un título &lt;h1&gt; como Otra Página, luego lo enlazare en la etiqueta.
+    </p>
+
+    <img class="imagenes" src="img/10.png" alt="imagen 10">
+
+    <p class="parrafos">
+        antes del cierre de la etiqueta &lt;/a&gt; debemos colocar el nombre que deseemos ya que al hacer clic en él nos llevará a la página del enlace.
+    </p>
+
+    <p class="parrafos">
+        La etiqueta debe quedar de la siguiente manera:
+    </p>
+
+    <p class="codigos">
+        &lt;a href="otrapagina.html”&gt; este es un enlace a otra página&lt;/a&gt;
+    </p>
+
+    <img class="imagenes" src="img/13.png" alt="imagen 13">
+
+    <p class="parrafos">
+        al refrescar el navegador donde tenemos abierto nuestro archivo (index.html) el resultado es el mostrado en la imagen:
+    </p>
+
+    <img class="imagenes" src="img/11.png" alt="imagen 11">
+
+    <p class="parrafos">
+        Ahora bien, si queremos que al hacer clic en el enlace este se abra en una pestaña nueva en el navegador tendremos que colocar un atributo dentro de la etiqueta &lt;a&gt;, el atributo es (target="_blank"). El código completo de la etiqueta queda de la siguiente manera: 
+    </p>
+
+    <p class="codigos">
+        &lt;a href="otrapagina.html" target="_blank"&gt;este es un enlace a otra página&lt;/a&gt;
+    </p>
+
+    <p class="parrafos">
+        Es recomendable cuando utilizamos el atributo (target) siempre añadir (rel="noreferrer noopener") para prevenir el tipo de phishing conocido como tabnabbing. Nuestro código quedaría de la siguiente manera:
+    </p>
+
+    <p class="codigos">
+        &lt;a href="otrapagina.html" target="_blank" rel="noopener noreferrer"&gt;este es un enlace a otra página&lt;/a&gt;
+    </p>
+
+    <p class="parrafos">
+        El resultado del código es el mostrado en la imagen:
+    </p>
+
+    <img class="imagenes" src="img/12.png" alt="imagen 12">
 </body>
 </html>
