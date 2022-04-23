@@ -45,8 +45,8 @@ nav{
 
 .menu-horizontal >li>a{
     display: block;
-    padding: 5px 100px;
-    color: aquamarine;
+    padding: 5px 60px;
+    color: black;
     text-decoration: none;
 }
 
@@ -201,4 +201,8 @@ p{
 
 .prueba{
     color: azure;
+}
+
+.menuhinvidual{
+    color: chartreuse;
 }

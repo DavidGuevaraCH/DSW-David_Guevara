@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: url(img/desk.jpg) no-repeat; /*imagen de fondo de la pagina web*/
+    background-size: cover;/*para traer la imagen a la pantalla*/
+    font-family: 'century gothyc', sans-serif;/*para cambiar el estilo de letra en todo el body*/
+}
+
+#box{
+    /*todo esto es para crear el semi fondo donde esta dentro la escritura y 
+    cambier el color de la fuente*/
+    width: 800px;
+    background: rgba(0, 0, 0, .4);
+    margin: 0 auto;
+    margin-top: 10%;
+    padding: 20px;
+    color: white;
+}
+
+#titulo{
+    text-align: center;
+    font-size: 60px;
+    color: aqua;
+}
+
+#subtitulo{
+    font-size: 30px;
+    padding-block: 25px;
+    color: aquamarine;
+}
+
+#parrafo{
+    text-align: justify;
+    font-size: 25px;
+    color: azure;
+}
