@@ -1,0 +1,208 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    background: lightgray;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#container{
+    width: 1100px;
+    margin: 0px auto;
+    border: 1px solid;
+}
+
+
+header{
+    background-image: linear-gradient(rgb(15, 208, 215), rgb(164, 228, 236));
+    height: 200px;
+    width: 100%;
+    margin: 0px;
+    text-align: center;
+    line-height: 100px;
+    color: rgb(0, 0, 0);
+}
+
+nav{
+    max-width: 1100px;
+    margin: auto;
+    background-image: linear-gradient(rgb(49, 138, 233), lightblue);
+    font-size: 20px;
+    margin-top: 1px;
+    text-align: center;
+    height: 45px;
+}
+
+.menu-horizontal{
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+.menu-horizontal >li>a{
+    display: block;
+    padding: 5px 60px;
+    color: black;
+    text-decoration: none;
+}
+
+.menu-horizontal >li:hover{
+    background: orange;
+    height: 45px;
+}
+
+.menu-vertical{
+    position: absolute;
+    display: none;
+    list-style: none;
+    width: 250px;
+    background-color: rgba(0, 0, 0, .9);
+    color: aliceblue;
+}
+
+.menu-horizontal li:hover .menu-vertical{
+    display: block;
+}
+
+.menu-vertical li:hover{
+    background-color: aquamarine;
+}
+
+.clearfix{
+    clear: both;
+}
+
+aside{
+    float: left;
+    width: 31%;
+    min-height: 100px;
+    height: 1144px;
+    background: #008db1;
+}
+
+#content{
+    float: left;
+    width:69%;
+    background: white;
+}
+
+h2{
+    font-size: 30px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin:10px ;
+}
+
+p{
+    text-align: justify;
+    font-size: 22px;
+    margin: 10px;
+    padding-bottom: 9px;
+}
+
+.fanpage{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+/*imagenes 1*/
+
+.contentimagenes1{
+    display: flex;
+}
+
+.contentimagenes1 img:first-child{
+    margin-right: 30px;
+    margin-left: 30px;
+}
+
+.imagen1{
+    height: 250px;
+    margin-bottom: 20px;
+}
+
+/*imagenes 2*/
+.imagen2{
+    height: 250px;
+    margin-left: 80px;
+    width:360px;
+}
+
+.imagen3{
+    height: 250px;
+    width: 250px;
+    margin-bottom: 40px;
+}
+
+.imagen4{
+    height: 250px;
+    width: 330px;
+    margin-left: 80px;
+}
+/*imagenes 2*/
+.contentimagenes2{
+    display: flex;
+}
+
+.contentimagenes2 img:first-child{
+    margin-right: 30px;
+    margin-left: 30px;
+}
+
+#navfooter{
+    max-width: 1100px;
+    margin: auto;
+    background-color: greenyellow;
+    font-size: 20px;
+    margin-top: 1px;
+    height: 55px;
+}
+
+.menu-footer{
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    font-size: 40px;
+}
+
+.menu-footer >li>a{
+    display: block;
+    padding: 5px 100px;
+    color: white;
+    text-decoration: none;
+}
+
+.correo :hover{
+    color: rgb(109, 0, 177);
+    transform: scale(1.3);
+}
+
+.skype :hover{
+    color: aqua;
+    transform: scale(1.3);
+}
+
+/*imagen del logo*/
+.uni{
+    float: left;
+    height: 100px;
+    padding-left: 300px
+}
+
+#titulo{
+    padding-top: 50px;
+    padding-right: 200px;
+}
+
+.prueba{
+    color: azure;
+}
+
+.menuhinvidual{
+    color: chartreuse;
+}
