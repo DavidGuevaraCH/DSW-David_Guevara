@@ -79,3 +79,11 @@ body{
 #enlace{
     font-size: 20px;
 }
+
+@media all and (min-width:768px){
+    .section{
+        float: left;
+        margin-right: 10%;
+        width: 20%;
+    }
+}
