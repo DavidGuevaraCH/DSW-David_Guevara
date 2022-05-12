@@ -5,7 +5,7 @@ var myQuestions = [
     a: 'Verdadero',
     b: 'Falso'
     },
-    correctAnswer: 'b'
+    correctAnswer: 'a'
     },
     {
     question: "2- ¿en Microsoft Visual Code al digitar la etiqueta &lt;img&gt;, automáticamente me crea la etiqueta completa para poner la ruta de la imagen y poder agregar el autor de la imagen?",
@@ -21,27 +21,23 @@ var myQuestions = [
     a:'Verdadero',
     b:'Falso',
     },
-    correctAnswer: 'b'
+correctAnswer: 'b'
     },
     {
-    question: "4- si queremos que al hacer clic en el enlace, este se abra en una pestaña nueva en el navegador ¿qué tipo de atributo demos utilizar?",
+    question: "4- si queremos que al hacer clic en el enlace, este se abra en una pestaña nueva en el navegador el atributo que demos utilizar es target?",
     answers:{
-    a: 'Black',
-    b: 'New Window',
-    c: 'blank_',
-    d: 'target',
+    a: 'Verdadero',
+    b : 'Falso',
     },
-    correctAnswer: 'd'
+    correctAnswer: 'a'
     },
     {
-    question: "5- ¿para agregar enlaces externos en HTML se usa la etiqueta?",
+    question: "5- ¿para agregar enlaces externos en HTML se usa la etiqueta &lt;a&gt;?",
     answers:{
-    a: 'href',
-    b: 'Link',
-    c: '&lt;a&gt;',
-    d: 'src',
+    a: 'Verdadero',
+    b: 'Falso',
     },
-    correctAnswer: 'c'
+    correctAnswer: 'a'
     }
     ];
     
@@ -70,7 +66,7 @@ var myQuestions = [
     // ...añadir un botón de opción html 
     answers.push(
     '<label>'
-    + '<input type="radio" name="question '+i+'" value="'+letter+'">'
+    + '<input type="radio" name="question'+i+'" value="'+letter+'">'
     + letter + ': '
     + questions[i].answers[letter]
     + '</label>'
@@ -132,3 +128,7 @@ var myQuestions = [
     }
     
     }
+
+
+
+

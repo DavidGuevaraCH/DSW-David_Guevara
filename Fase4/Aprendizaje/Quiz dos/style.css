@@ -13,14 +13,14 @@ body{
     -moz-box-shadow: -1px 8px 15px  0px rgba(0,0,0,0.5);
     box-shadow: -1px 8px 15px  0px rgba(8, 189, 14, 0.5);
     margin-top: 25px;
-    margin-left: 290px;
+    margin-left: 190px;
 }
 
 .answers{
     margin-top: 40px;
     margin-bottom: 20px;
     color: rgb(54, 101, 241);
-    padding-left: 540px;
+    padding-left:500px;
     padding-top: 15px;
     letter-spacing: 2px;
 }
