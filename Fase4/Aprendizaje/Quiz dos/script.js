@@ -8,7 +8,7 @@ var myQuestions = [
     correctAnswer: 'a'
     },
     {
-    question: "2- ¿en Microsoft Visual Code al digitar la etiqueta &lt;img&gt;, automáticamente me crea la etiqueta completa para poner la ruta de la imagen y poder agregar el autor de la imagen?",
+    question: "2- ¿en Microsoft Visual Studio Code al digitar la etiqueta &lt;img&gt;, automáticamente me crea la etiqueta completa para poner la ruta de la imagen y poder agregar el autor de la imagen?",
     answers: {
     a: 'Verdadero',
     b: 'Falso',
